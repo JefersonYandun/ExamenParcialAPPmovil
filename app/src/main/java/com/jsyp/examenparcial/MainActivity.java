@@ -8,9 +8,25 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.jsyp.examenparcial.R;
+
+
 public class MainActivity extends AppCompatActivity {
 
-    private EditText txtCedula, txtNombreProp, txtPlaca, txtAnio, txtMarca, txtColor, txtTipoVehiculo, txtMultas, txtValor;
+    private EditText txtCedula;
+
+    private EditText txtNombreProp;
+    private EditText txtPlaca;
+    private EditText txtAnio;
+    private EditText txtMarca;
+    private EditText txtMultas;
+
+    private EditText txtTipoVehiculo;
+
+    private EditText txtColor;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
