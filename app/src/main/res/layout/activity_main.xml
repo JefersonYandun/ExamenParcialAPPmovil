@@ -147,7 +147,7 @@
         android:layout_marginEnd="236dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Ingrese el num. de placa"
+        android:text=" placa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
