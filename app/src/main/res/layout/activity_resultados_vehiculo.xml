@@ -1,0 +1,157 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gato_abrazo"
+        tools:context=".activity_resultados_vehiculo">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="201dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="28dp"
+            android:text="MATRICULACION VEHICULOS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintBottom_toTopOf="@+id/txtNombreProp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.863" />
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="114dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="28dp"
+            android:background="#3F51B5"
+            android:text="Button"
+            app:iconTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="36dp"
+            android:text="sus valores a pagar son:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblNombreResult"
+            android:layout_width="181dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="208dp"
+            android:text="."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblRenovacionPlacas"
+            android:layout_width="244dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="80dp"
+            android:text="."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblContaminacion"
+            android:layout_width="181dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="24dp"
+            android:text="."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblMultas"
+            android:layout_width="181dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginEnd="24dp"
+            android:text="."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblTotalPagar"
+            android:layout_width="278dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="504dp"
+            android:layout_marginEnd="76dp"
+            android:text="."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lblMatriculacion"
+            android:layout_width="181dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="312dp"
+            android:layout_marginEnd="24dp"
+            android:text="."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_subtitutloImportacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="120dp"
+            android:text="IMPORTE RENOVACION PLACAS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_subtitutloImportacion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="220dp"
+            android:text="MULTA CONTAMINACION:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_subtitutloImportacion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="220dp"
+            android:text="VALOR MULTAS:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_subtitutloImportacion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="460dp"
+            android:layout_marginEnd="164dp"
+            android:text="TOTAL A PAGAR:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_subtitutloImportacion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="220dp"
+            android:text="VALOR MATRICULACION:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

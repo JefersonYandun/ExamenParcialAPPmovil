@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'com.jsyp.examenparcial'
-    compileSdk 33
+    namespace 'com.ggvc.examenprimeraparcialmovil'
+    compileSdk 34  // Cambiado a 34
 
     defaultConfig {
-        applicationId "com.jsyp.examenparcial"
+        applicationId "com.ggvc.examenprimeraparcialmovil"
         minSdk 24
-        targetSdk 33
+        targetSdk 34  // Cambiado a 34
         versionCode 1
         versionName "1.0"
 
